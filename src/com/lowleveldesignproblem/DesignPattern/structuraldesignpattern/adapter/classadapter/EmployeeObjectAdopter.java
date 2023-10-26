@@ -4,6 +4,8 @@ public class EmployeeObjectAdopter implements Customer{
 
     private Employee employee;
 
+    // composition
+
     public EmployeeObjectAdopter (Employee employee){
         this.employee = employee;
 

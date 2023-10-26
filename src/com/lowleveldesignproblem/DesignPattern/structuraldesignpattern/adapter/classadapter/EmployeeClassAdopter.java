@@ -2,6 +2,7 @@ package com.lowleveldesignproblem.DesignPattern.structuraldesignpattern.adapter.
 
 public class EmployeeClassAdopter extends Employee implements Customer   {
 
+    // inheritance
     @Override
     public String getName() {
         return this.getFullName();

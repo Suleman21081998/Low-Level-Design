@@ -1,4 +1,4 @@
-package com.lowleveldesignproblem.DesignPattern;
+package com.lowleveldesignproblem.DesignPattern.structuraldesignpattern;
 
 public class StructuralDesignPattern {
 
