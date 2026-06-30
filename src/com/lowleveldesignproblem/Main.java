@@ -16,9 +16,7 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args) {
-
-/*
-        OLA Uber Design Presentation
+       
         Rider rider = new Rider();
         rider.setName("Suleman");
         rider.setId(1);
@@ -51,10 +49,9 @@ public class Main {
         interFace.createRide(2,1,50,60,1);
         interFace.updateRide(2,1,50,60,2);
         System.out.println("Fare : " + interFace.closeRide(2,1));
-*/
 
 
-        /* Meeting Schedular
+
 
         Room room = new Room();
         room.setName("A");
@@ -96,18 +93,18 @@ public class Main {
         System.out.println(schedular.book(6,9,2));
 
 
- */
+ 
 
-        // LisKov Substitution Principal
-//
-//        Rectangle rectangle = new Rectangle(10,20);
-//        Square square = new Square(10);
-//
-//        System.out.println(" Response : this is for rectangle");
-//        useRectangle(rectangle);
-//
-//        System.out.println(" Response: this is for square");
-//        useRectangle(square);
+      
+
+      //  Rectangle rectangle = new Rectangle(10,20);
+      //  Square square = new Square(10,10);
+
+      //  System.out.println(" Response : this is for rectangle");
+      //  useRectangle(rectangle);
+
+      //  System.out.println(" Response: this is for square");
+      //  useRectangle(square);
 
 
         // this violating Liskov substitution principal, we have to solve it using interface
@@ -115,17 +112,17 @@ public class Main {
 
     }
 
-//    private static void useRectangle(Rectangle rectangle){
-//        rectangle.setWidth(10);
-//        rectangle.setLength(20);
-//
-//        String widthString  = rectangle.getWidth() == 10 ? "It is correct":"width is not 10";
-//        String lengthString = rectangle.getLength() ==20 ? " It is correct": "length is not 20";
-//
-//        System.out.println(lengthString);
-//        System.out.println(widthString);
-//
-//    }
+   private static void useRectangle(Rectangle rectangle){
+       rectangle.setWidth(10);
+       rectangle.setLength(20);
+
+       String widthString  = rectangle.getWidth() == 10 ? "It is correct":"width is not 10";
+       String lengthString = rectangle.getLength() ==20 ? " It is correct": "length is not 20";
+
+       System.out.println(lengthString);
+       System.out.println(widthString);
+
+   }
 }
 
 /*
